@@ -10,6 +10,7 @@
 		9CDF6DF31DABD1D000F4892A /* HalaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDF6DE91DABD1D000F4892A /* HalaCore.framework */; };
 		9CDF6DF81DABD1D000F4892A /* HalaCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF6DF71DABD1D000F4892A /* HalaCoreTests.swift */; };
 		9CDF6DFA1DABD1D000F4892A /* HalaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDF6DEC1DABD1D000F4892A /* HalaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CDF6E041DABD42C00F4892A /* HalaCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF6E031DABD42C00F4892A /* HalaCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		9CDF6DF21DABD1D000F4892A /* HalaCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalaCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDF6DF71DABD1D000F4892A /* HalaCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaCoreTests.swift; sourceTree = "<group>"; };
 		9CDF6DF91DABD1D000F4892A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDF6E031DABD42C00F4892A /* HalaCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaCore.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				9CDF6DEC1DABD1D000F4892A /* HalaCore.h */,
+				9CDF6E031DABD42C00F4892A /* HalaCore.swift */,
 				9CDF6DED1DABD1D000F4892A /* Info.plist */,
 			);
 			path = HalaCore;
@@ -149,6 +152,7 @@
 					9CDF6DE81DABD1D000F4892A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 37JQGFRVMD;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					9CDF6DF11DABD1D000F4892A = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDF6E041DABD42C00F4892A /* HalaCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 		9CDF6DFE1DABD1D000F4892A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 37JQGFRVMD;
@@ -334,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hala.HalaCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +348,7 @@
 		9CDF6DFF1DABD1D000F4892A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 37JQGFRVMD;
@@ -360,6 +368,7 @@
 		9CDF6E011DABD1D000F4892A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 37JQGFRVMD;
 				INFOPLIST_FILE = HalaCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +381,7 @@
 		9CDF6E021DABD1D000F4892A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 37JQGFRVMD;
 				INFOPLIST_FILE = HalaCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
