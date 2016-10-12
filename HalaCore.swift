@@ -27,7 +27,12 @@ public class Hala: HalaPlaceManagerDelegate{
         placeManager?.findActualPlace()
     }
     
+    public func enterActualPlace(){
+        
+    }
+    
     func placeIsReady(myPlace: HalaPlace) {
+        place = myPlace
         self.delegate?.halaPlaceIsReady(place: myPlace)
     }
 }
