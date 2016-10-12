@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AC838E7DEC137962DC9949ABA6882AB46C3B1223",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AC838E7DEC137962DC9949ABA6882AB46C3B1223" : 9223372036854775807,
+    "A88C441AF36ACEA2A480A49A49282EABEC2A1DE2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FC83BDC4-0DB6-40FA-AFC3-C9AB3888F326",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AC838E7DEC137962DC9949ABA6882AB46C3B1223" : "Hala-Core-iOS\/",
+    "A88C441AF36ACEA2A480A49A49282EABEC2A1DE2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hala",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hala.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Marina42\/Hala.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A88C441AF36ACEA2A480A49A49282EABEC2A1DE2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Marina42\/Hala-Core-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC838E7DEC137962DC9949ABA6882AB46C3B1223"
+    }
+  ]
+}

@@ -8,11 +8,24 @@
 
 import Foundation
 
-public class HalaCore{
-    public static let halaCore = HalaCore()
-    private init(){}
+public class Hala{
+    public static let core = Hala()
+    private let placeManager: HalaPlaceManager?
+    private var counter = 0;
+    private var place: HalaPlace?
+    
+    
+    private init(){
+        placeManager = HalaPlaceManager()
+    }
     public func test(){
         print("FrameWork works")
+    }
+    public func getActualPlace() -> HalaPlace{
+        placeManager?.findActualPlace(completion: {(myPlace: HalaPlace) -> Void in
+            self.place = myPlace
+        })
+        return self.place!
     }
 }
 

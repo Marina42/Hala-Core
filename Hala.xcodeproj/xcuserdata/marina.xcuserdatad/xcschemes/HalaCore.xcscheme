@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9CDF6DE81DABD1D000F4892A"
-               BuildableName = "HalaCore.framework"
-               BlueprintName = "HalaCore"
-               ReferencedContainer = "container:HalaCore.xcodeproj">
+               BuildableName = "Hala.framework"
+               BlueprintName = "Hala"
+               ReferencedContainer = "container:Hala.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9CDF6DF11DABD1D000F4892A"
-               BuildableName = "HalaCoreTests.xctest"
-               BlueprintName = "HalaCoreTests"
-               ReferencedContainer = "container:HalaCore.xcodeproj">
+               BuildableName = "HalaTests.xctest"
+               BlueprintName = "HalaTests"
+               ReferencedContainer = "container:Hala.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9CDF6DE81DABD1D000F4892A"
-            BuildableName = "HalaCore.framework"
-            BlueprintName = "HalaCore"
-            ReferencedContainer = "container:HalaCore.xcodeproj">
+            BuildableName = "Hala.framework"
+            BlueprintName = "Hala"
+            ReferencedContainer = "container:Hala.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9CDF6DE81DABD1D000F4892A"
-            BuildableName = "HalaCore.framework"
-            BlueprintName = "HalaCore"
-            ReferencedContainer = "container:HalaCore.xcodeproj">
+            BuildableName = "Hala.framework"
+            BlueprintName = "Hala"
+            ReferencedContainer = "container:Hala.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9CDF6DE81DABD1D000F4892A"
-            BuildableName = "HalaCore.framework"
-            BlueprintName = "HalaCore"
-            ReferencedContainer = "container:HalaCore.xcodeproj">
+            BuildableName = "Hala.framework"
+            BlueprintName = "Hala"
+            ReferencedContainer = "container:Hala.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

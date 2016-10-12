@@ -17,9 +17,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9CDF6DF11DABD1D000F4892A"
-               BuildableName = "HalaCoreTests.xctest"
-               BlueprintName = "HalaCoreTests"
-               ReferencedContainer = "container:HalaCore.xcodeproj">
+               BuildableName = "HalaTests.xctest"
+               BlueprintName = "HalaTests"
+               ReferencedContainer = "container:Hala.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
