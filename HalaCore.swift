@@ -7,8 +7,10 @@
 //
 
 import Foundation
+import GooglePlaces
 
-public class Hala{
+public class Hala: HalaPlaceManagerDelegate{
+    public weak var delegate: HalaCoreDelegate?
     public static let core = Hala()
     private let placeManager: HalaPlaceManager?
     private var counter = 0;
@@ -16,16 +18,17 @@ public class Hala{
     
     
     private init(){
+        GMSPlacesClient.provideAPIKey("AIzaSyD1OKwaXi5RSHOSlsrgQFlVUcQiVOjxu14")
         placeManager = HalaPlaceManager()
+        placeManager?.delegate = self
+        
     }
-    public func test(){
-        print("FrameWork works")
+    public func getActualPlace(){
+        placeManager?.findActualPlace()
     }
-    public func getActualPlace() -> HalaPlace{
-        placeManager?.findActualPlace(completion: {(myPlace: HalaPlace) -> Void in
-            self.place = myPlace
-        })
-        return self.place!
+    
+    func placeIsReady(myPlace: HalaPlace) {
+        self.delegate?.halaPlaceIsReady(place: myPlace)
     }
 }
 

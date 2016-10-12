@@ -10,6 +10,8 @@
 		8BD10F99A5B636F7A829335D /* Pods_Hala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3043C2708FA225EC41A614A6 /* Pods_Hala.framework */; };
 		9CB7A7311DAD0D3A000CC237 /* HalaPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7A7301DAD0D3A000CC237 /* HalaPlace.swift */; };
 		9CB7A7331DAD0EC3000CC237 /* HalaPlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7A7321DAD0EC2000CC237 /* HalaPlaceManager.swift */; };
+		9CB7A7351DAE351B000CC237 /* HalaPlaceManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7A7341DAE351B000CC237 /* HalaPlaceManagerDelegate.swift */; };
+		9CB7A7371DAE4D65000CC237 /* HalaCoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7A7361DAE4D65000CC237 /* HalaCoreDelegate.swift */; };
 		9CDF6DF31DABD1D000F4892A /* Hala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDF6DE91DABD1D000F4892A /* Hala.framework */; };
 		9CDF6DF81DABD1D000F4892A /* HalaCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF6DF71DABD1D000F4892A /* HalaCoreTests.swift */; };
 		9CDF6DFA1DABD1D000F4892A /* HalaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDF6DEC1DABD1D000F4892A /* HalaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +32,8 @@
 		3043C2708FA225EC41A614A6 /* Pods_Hala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB7A7301DAD0D3A000CC237 /* HalaPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaPlace.swift; sourceTree = "<group>"; };
 		9CB7A7321DAD0EC2000CC237 /* HalaPlaceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaPlaceManager.swift; sourceTree = "<group>"; };
+		9CB7A7341DAE351B000CC237 /* HalaPlaceManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaPlaceManagerDelegate.swift; sourceTree = "<group>"; };
+		9CB7A7361DAE4D65000CC237 /* HalaCoreDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaCoreDelegate.swift; sourceTree = "<group>"; };
 		9CDF6DE91DABD1D000F4892A /* Hala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDF6DEC1DABD1D000F4892A /* HalaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalaCore.h; sourceTree = "<group>"; };
 		9CDF6DED1DABD1D000F4892A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,8 +107,10 @@
 			children = (
 				9CDF6DEC1DABD1D000F4892A /* HalaCore.h */,
 				9CDF6E031DABD42C00F4892A /* HalaCore.swift */,
+				9CB7A7361DAE4D65000CC237 /* HalaCoreDelegate.swift */,
 				9CB7A7301DAD0D3A000CC237 /* HalaPlace.swift */,
 				9CB7A7321DAD0EC2000CC237 /* HalaPlaceManager.swift */,
+				9CB7A7341DAE351B000CC237 /* HalaPlaceManagerDelegate.swift */,
 				9CDF6DED1DABD1D000F4892A /* Info.plist */,
 			);
 			path = HalaCore;
@@ -269,6 +275,8 @@
 			files = (
 				9CB7A7331DAD0EC3000CC237 /* HalaPlaceManager.swift in Sources */,
 				9CDF6E041DABD42C00F4892A /* HalaCore.swift in Sources */,
+				9CB7A7351DAE351B000CC237 /* HalaPlaceManagerDelegate.swift in Sources */,
+				9CB7A7371DAE4D65000CC237 /* HalaCoreDelegate.swift in Sources */,
 				9CB7A7311DAD0D3A000CC237 /* HalaPlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

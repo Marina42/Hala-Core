@@ -10,19 +10,15 @@ import Foundation
 import GooglePlaces
 
 class HalaPlaceManager{
+    weak var delegate: HalaPlaceManagerDelegate?
     var placesClient: GMSPlacesClient?
+    var myPlace: HalaPlace?
     
-    init(){}
-    
-    func findActualPlace(completion: (_: HalaPlace) -> Void){
-        placesClient?.currentPlace(callback: completion(place)) -> Void in
-        
-        
-        let place = HalaPlace(gpid: "1", name: "test OK", address: "test street")
-        completion(place)
+    init(){
+        placesClient = GMSPlacesClient.shared()
     }
     
-    /*func getActualPlace(){
+    func findActualPlace(){
         placesClient?.currentPlace(callback: {
             (placeLikelihoodList: GMSPlaceLikelihoodList?, error: Error?) -> Void in
             if let error = error {
@@ -33,15 +29,10 @@ class HalaPlaceManager{
             if let placeLikelihoodList = placeLikelihoodList {
                 let place = placeLikelihoodList.likelihoods.first?.place
                 if let place = place {
-                    let actualPlace = HalaPlace(gpid: place.placeID, name: place.name, address: place.formattedAddress!.components(separatedBy: ", ").joined(separator: "\n"))
-                    self.sendPlace(actualPlace: actualPlace)
+                    self.myPlace = HalaPlace(gpid: place.placeID, name: place.name, address: place.formattedAddress!.components(separatedBy: ", ").joined(separator: "\n"), coord: place.coordinate)
+                    self.delegate?.placeIsReady(myPlace: self.myPlace!)
                 }
             }
-        } )
+        })
     }
-    
-    
-    func sendPlace(actualPlace: HalaPlace){
-        
-    }*/
 }
