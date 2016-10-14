@@ -10,4 +10,5 @@ import Foundation
 
 public protocol HalaCoreDelegate: class{
     func halaPlaceIsReady(place: HalaPlace)
+    func didEnterHalaPlace()
 }

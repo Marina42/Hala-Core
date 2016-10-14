@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8BD10F99A5B636F7A829335D /* Pods_Hala.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3043C2708FA225EC41A614A6 /* Pods_Hala.framework */; };
+		9C2D8AEA1DAF686C00AAD58B /* HalaSensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D8AE91DAF686C00AAD58B /* HalaSensorManager.swift */; };
 		9CB7A7311DAD0D3A000CC237 /* HalaPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7A7301DAD0D3A000CC237 /* HalaPlace.swift */; };
 		9CB7A7331DAD0EC3000CC237 /* HalaPlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7A7321DAD0EC2000CC237 /* HalaPlaceManager.swift */; };
 		9CB7A7351DAE351B000CC237 /* HalaPlaceManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7A7341DAE351B000CC237 /* HalaPlaceManagerDelegate.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		3043C2708FA225EC41A614A6 /* Pods_Hala.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hala.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2D8AE91DAF686C00AAD58B /* HalaSensorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaSensorManager.swift; sourceTree = "<group>"; };
 		9CB7A7301DAD0D3A000CC237 /* HalaPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaPlace.swift; sourceTree = "<group>"; };
 		9CB7A7321DAD0EC2000CC237 /* HalaPlaceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaPlaceManager.swift; sourceTree = "<group>"; };
 		9CB7A7341DAE351B000CC237 /* HalaPlaceManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalaPlaceManagerDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				9CDF6DEC1DABD1D000F4892A /* HalaCore.h */,
 				9CDF6E031DABD42C00F4892A /* HalaCore.swift */,
+				9C2D8AE91DAF686C00AAD58B /* HalaSensorManager.swift */,
 				9CB7A7361DAE4D65000CC237 /* HalaCoreDelegate.swift */,
 				9CB7A7301DAD0D3A000CC237 /* HalaPlace.swift */,
 				9CB7A7321DAD0EC2000CC237 /* HalaPlaceManager.swift */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB7A7331DAD0EC3000CC237 /* HalaPlaceManager.swift in Sources */,
+				9C2D8AEA1DAF686C00AAD58B /* HalaSensorManager.swift in Sources */,
 				9CDF6E041DABD42C00F4892A /* HalaCore.swift in Sources */,
 				9CB7A7351DAE351B000CC237 /* HalaPlaceManagerDelegate.swift in Sources */,
 				9CB7A7371DAE4D65000CC237 /* HalaCoreDelegate.swift in Sources */,

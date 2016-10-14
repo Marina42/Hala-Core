@@ -21,10 +21,10 @@ public class HalaPlace {
         self.address = address
         self.coordinates = coord
     }
-    public func getGpid() -> String{
+    func getGpid() -> String{
         return self.gpid!
     }
-    func getCoords() -> CLLocationCoordinate2D{
+    public func getCoords() -> CLLocationCoordinate2D{
         return self.coordinates!
     }
     public func getName() -> String{
