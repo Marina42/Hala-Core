@@ -21,7 +21,7 @@ public class HalaPlace {
         self.address = address
         self.coordinates = coord
     }
-    func getGpid() -> String{
+    public func getGpid() -> String{
         return self.gpid!
     }
     public func getCoords() -> CLLocationCoordinate2D{

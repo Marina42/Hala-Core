@@ -9,7 +9,7 @@
 import Foundation
 import GooglePlaces
 
-public class Hala: HalaPlaceManagerDelegate{
+public class Hala: HalaPlaceManagerDelegate, HalaSensorDelegate{
     public weak var delegate: HalaCoreDelegate?
     public static let core = Hala()
     private let placeManager: HalaPlaceManager?
@@ -20,17 +20,30 @@ public class Hala: HalaPlaceManagerDelegate{
     
     
     private init(){
-        GMSPlacesClient.provideAPIKey("AIzaSyD1OKwaXi5RSHOSlsrgQFlVUcQiVOjxu14")
+        GMSPlacesClient.provideAPIKey("AIzaSyD5Q4ODoIzsLMhGeuRMZ2Jf8z5_YGxKfUU")
         placeManager = HalaPlaceManager()
         sensorManager = HalaSensorManager()
         placeManager?.delegate = self
+        sensorManager?.delegate = self
         
     }
-    public func getActualPlace(){
+    public func getCurrentPlace(){
         placeManager?.findActualPlace()
     }
     
-    public func enterActualPlace(){
+    public func currentPlaceIsReady(){
+        self.delegate?.didEnterHalaPlace()
+    }
+    
+    public func enterCurrentPlace(){
+        sensorManager?.engageComponent(gpid: (place?.getGpid())!)
+        /*
+         
+ 
+        */
+        
+        
+        
         /*if Component exists {
             get list of sensors
             iterate list, do all of them exist? {
