@@ -17,6 +17,7 @@ public class Hala: HalaPlaceManagerDelegate, HalaSensorDelegate{
     private var counter = 0;
     private var place: HalaPlace?
     private var sensorsToCreate = [String]()
+    var username = "Anon"
     
     
     private init(){
@@ -27,6 +28,11 @@ public class Hala: HalaPlaceManagerDelegate, HalaSensorDelegate{
         sensorManager?.delegate = self
         
     }
+    
+    public func changeUsername(newUsername: String){
+        self.username = newUsername
+    }
+    
     public func getCurrentPlace(){
         placeManager?.findActualPlace()
     }
